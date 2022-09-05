@@ -1,0 +1,31 @@
+.titleField {
+  width: 90%;
+  margin-bottom: 10px;
+
+  &:before,
+  &:after {
+    display: none !important;
+  }
+
+  input {
+    font-size: 36px !important;
+    font-weight: 700 !important;
+  }
+}
+
+.editor {
+  font-size: 18px;
+  display: flex;
+  height: calc(100vh - 220px);
+}
+
+
+.info_messages_title {
+  padding: 30px 0px 30px 0px;
+  font-size: 26px;
+}
+
+.info_messages_text {
+  
+  font-size: 26px;
+}

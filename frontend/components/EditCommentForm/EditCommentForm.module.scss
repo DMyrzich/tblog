@@ -1,0 +1,30 @@
+.form {
+    margin-top: 15px;
+    padding: 10px 17px !important;
+    background-color: #f7f7f7;
+    border: 1px solid rgba(0, 0, 0, 0.03);
+    border-radius: 10px;
+
+    &:after,
+    &:before {
+        display: none;
+    }
+}
+
+.fieldRoot {
+    cursor: pointer !important;
+
+    &:after,
+    &:before {
+        display: none;
+    }
+}
+
+.editButton {
+    margin-top: 10px;
+
+    &:last-child {
+
+        margin-left: 10px !important;
+    }
+}
